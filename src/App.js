@@ -12,13 +12,13 @@ import AlertState from './context/alert/AlertState';
 
 import './App.css';
 
-const App = () => {
+const App = () => { 
   return (
     <GithubState>
       <AlertState>
         <Router>
           <div className='App'>
-            <Navbar />
+            <Navbar/>
             <div className='container'>
               <Alert />
               <Switch>

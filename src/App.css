@@ -349,13 +349,18 @@ table th {
 /* Navbar */
 .navbar {
   display: flex;
+  border-bottom: #333;
+  box-shadow: 0 2px 4px -1px rgba(0, 0, 0, 0.25);
   justify-content: space-between;
   align-items: center;
   padding: 0.7rem 2rem;
   z-index: 1;
   width: 100%;
-  opacity: 0.9;
+  /* opacity: 0.9; */
+  box-shadow: 0 2px 4px -1px rgba(0, 0, 0, 0.25);
   margin-bottom: 1rem;
+  position: sticky;
+  top: 0;
 }
 
 .navbar ul {
@@ -375,6 +380,7 @@ table th {
 .navbar .welcome span {
   margin-right: 0.6rem;
 }
+
 
 /* Mobile Styles */
 @media (max-width: 700px) {
